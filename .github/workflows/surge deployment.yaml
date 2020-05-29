@@ -3,6 +3,8 @@ name: Deploy Website
 on:[push]
     
 jobs:
+     my_first_job:
+         
   build:
     runs-on: ubuntu-latest
     name: Deploying to surge 
